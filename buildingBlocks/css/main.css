@@ -1,0 +1,166 @@
+@charset "UTF-8";
+body {
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    background-position: 60% 0;
+    background-origin: content-box;
+    background-color: #000000;
+    padding-bottom: 0px;
+    bottom: 0px;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+.games p {
+    text-align: left;
+}
+.games article {
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: GalacticaGrid;
+    color: #35DE02;
+    font-size: 75px;
+    margin-top: 10px;
+    text-shadow: 2px -18px 372px #35DE02;
+    opacity: 1;
+}
+h2 {
+    padding-top: 0px;
+    padding-right: px;
+    padding-left: px;
+    padding-bottom: 3;
+    margin-top: -30px;
+    color: #FFFF00;
+    font-family: GalacticaGrid;
+    overflow-y: visible;
+    opacity: 0.49;
+    text-shadow: 0 0px 0px #000000;
+    z-index: 0;
+    visibility: visible;
+    right: 0px;
+}
+section {
+    background-color: #000000;
+    margin-top: 25px;
+}
+nav {
+    list-style-type: none;
+    background-position: -1% 55%;
+    background-repeat: repeat;
+    border-radius: 20px;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-attachment: fixed;
+    padding-top: 10px;
+    background-image: url(../images/metalbackground.png);
+    background-size: 630px auto;
+}
+aside {
+    padding-top: 10px;
+    background-image: url(../images/metalbackground.png);
+    background-size: 700px auto;
+    background-position: 0 -511%;
+    border-radius: 20px;
+    background-repeat: repeat;
+}
+li {
+    list-style-type: none;
+    color: #35DE02;
+    margin-left: 20px;
+}
+a {
+    color: #35DE02;
+    background-color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+h4 {
+    color: #35DE02;
+    font-size: 34px;
+}
+div {
+    background-position: 36% 474%;
+    background-size: 700px auto;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+a {
+    color: #35DE02;
+}
+.index div {
+    background-color: #000000;
+}
+h3     {
+    font-family: GalacticaGrid;
+    color: #FFFE03;
+    font-size: 50px;
+    margin-top: 12px;
+    text-align: center;
+}
+header {
+    background-position: 88% 0%;
+    background-size: 700px auto;
+    border-radius: 20px;
+    background-image: url(../images/metalbackground.png);
+}
+p {
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+img {
+    text-align: center;
+}
+ul {
+}
+h6 {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 935px){
+h2   {
+    color: #FFFE03;
+    font-size: 23px;
+}
+}
+.games h4 a {
+    text-align: center;
+    color: #FFFE03;
+    font-size: 30px;
+}
+
+@media (max-width: 711px){
+h2 {
+    color: #FFFE03;
+    font-size: 16px;
+}
+}
+
+@media (max-width: 1208px){
+h4 {
+    font-size: 23px;
+}
+body {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+img {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+}
+
+@media (max-width: 1013px){
+a {
+    font-size: 13px;
+}
+}
